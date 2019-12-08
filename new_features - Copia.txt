@@ -1,0 +1,8 @@
+XMIN,YMIN= esses dois valores são os pontos que são utilizados para determinar o centro do circulo que cobre completamente o objeto utilizando menor area possivel
+RAIOMIN= é o raio do circulo descrito acima
+AREACIRCMIN= essa é a area do circulo descrito acima
+DEDOS= quantidade de possíveis dedos presentes na imagem, descoberta utilizando o calculo de convexidades e curvatura k
+XMAX,YMAX= dois valores que juntos são usados para identificar o centro do maior circulo dentro do contorno da mao, que deveria estar na palma da mão.
+RAIOMAX= raio do circulo descrito acima
+AREACIRCMAX= area do circulo descrito acima
+HU0, HU1, HU2, HU3, HU4, HU5, HU6= são valores (momentos) que são usados para descrever, caracterizar e quantificar a forma de um objeto. Esses momentos são calculados a partir do contorno do objeto.
